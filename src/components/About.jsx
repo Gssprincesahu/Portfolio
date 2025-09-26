@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../public/logo.jpg';
 import git from '../../public/git.png';
 import linkedin from '../../public/linkedin.png';
+import codechef1 from '../../public/codechef1.png';
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
             Passionate about building clean, efficient web apps and solving complex problems through competitive programming and data structures & algorithms in Java.
             Always eager to learn and create impactful digital experiences.</p>
           <a
-            href="/cv.pdf"      // path to PDF
+            href="#"      // path to PDF
             target="_blank"         // open in new tab
             rel="noopener noreferrer"
           // download triggers download instead of open (optional)
@@ -34,6 +35,10 @@ export default function About() {
             target="_blank" 
             className=' h-10 w-10 transform hover:scale-105 transition duration-300'>
               <img src={git} /></a>
+              <a href=' https://www.codechef.com/users/g_saran_123' 
+            target="_blank" 
+            className=' h-10 w-10 transform hover:scale-105 transition duration-300'>
+              <img src={codechef1} /></a>
             
           </div>
         </div>
